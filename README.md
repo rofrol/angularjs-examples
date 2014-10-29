@@ -1,7 +1,6 @@
-install nodejs
+install nodejs than `npm install -g bower`
 
 ```
 cd some_example
-npm install -g bower
 bower install
 ```
