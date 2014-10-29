@@ -1,0 +1,24 @@
+{
+  "name": "filter",
+  "version": "0.0.0",
+  "authors": [
+    "Roman Frołow <rofrol@gmail.com>"
+  ],
+  "description": "filter",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.3.0"
+  }
+}
