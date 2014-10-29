@@ -1,0 +1,14 @@
+<html ng-app="gemStore">
+<head>
+</head>
+<body ng-controller="StoreController as store">
+<div class="product row" ng-hide="product.soldOut" ng-repeat="product in store.products">
+  <h1>{{product.name}}
+    <em clas="price">{{product.price}}
+  </h1>
+  <button ng-show="product.canPurchase">Add to cart</button>
+</div>
+<script src="bower_components/angularjs/angular.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
